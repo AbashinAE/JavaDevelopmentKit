@@ -36,8 +36,6 @@ public class EmployeeDirectory {
     public List<Employee> findPhone(String phone) {
         return employees.stream().filter(e -> e.phone().equals(phone)).toList();
     }
-
-
     public void printArray() {
         employees.forEach(System.out::println);
     }

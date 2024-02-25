@@ -13,7 +13,6 @@ public class Main {
         System.out.println(employeeDirectory.findId(5));
 
     }
-
     private static void List(EmployeeDirectory e) {
         e.addEmployee("Костя", "+79001111111", 5);
         e.addEmployee("Мария", "+79002222222", 4);
