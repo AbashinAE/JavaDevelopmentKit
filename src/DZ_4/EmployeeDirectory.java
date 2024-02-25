@@ -32,6 +32,7 @@ public class EmployeeDirectory {
 //    public List<Employee> findExperience(int yearExp) {
 //        return employees.stream().filter(e -> e.getExp() == yearExp).toList();
 //    }
+
     public List<Employee> findPhone(String phone) {
         return employees.stream().filter(e -> e.phone().equals(phone)).toList();
     }
